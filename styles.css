@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.header {
+  width: 100%;
+  height: 800px;
+  background-image: url('images/banner//banner2.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  margin-bottom: 20px;
+}
+.header-content {
+  margin-left: 60%;
+  align-items: center;
+}
+.header-title {
+  margin-bottom: 10px;
+}
+.header-text {
+  margin-bottom: 10px;
+}
+.btn-primary {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  background: #fd6e0a;
+  border-radius: 15px;
+}
+main {
+  margin-bottom: 150px;
+}
+.banner {
+  margin: 0px 200px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 50px;
+}
+ul li {
+  list-style: none;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.banner-item {
+  margin-left: 120px;
+}
+.banner-content {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 20px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 35px;
+}
+.my-plan {
+  align-items: center;
+  margin-bottom: 100px;
+}
+.plan {
+  align-items: center;
+  text-align: center;
+}
+.plan-container {
+  display: flex;
+  justify-content: space-around;
+}
+.blend {
+  background-image: url('images/watch.png');
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: blanchedalmond;
+}
+.blend-container {
+  padding: 70px 100px;
+}
+.blend-title {
+  padding: 70px 100px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+}
+.blend-btn {
+  padding: 70px 100px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  height: 500px;
+}
+.future {
+  color: white;
+  margin: 100px 20px;
+  gap: 10px;
+}
+.subscribe {
+  color: white;
+  margin: 100px 20px;
+  gap: 10px;
+}
+.subscribe-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 25px;
+}
+.subscribe-input {
+  margin-bottom: 10px;
+}
+.future-title {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 45px;
+}
+.future-content {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.future-email {
+  margin-bottom: 5px;
+}
+.future-phn {
+  margin-bottom: 10px;
+}
